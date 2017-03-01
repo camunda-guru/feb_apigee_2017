@@ -1,0 +1,19 @@
+Download curl zip
+Extract the contents (if you have downloaded the correct version you should find curl.exe)
+Place curl.exe in a folder where you keep your software (e.g. D:\software\curl\curl.exe)
+To run curl from the command line
+
+a) Right-hand-click on "My Computer" icon
+
+b) Select Properties
+
+c) Click 'Advanced system settings' link
+
+d) Go to tab [Advanced] - 'Environment Variables' button
+
+e) Under System variable select 'Path' and Edit button
+
+f) Add a semicolon followed by the path to where you placed your curl.exe (e.g. ;D:\software\curl)
+Now you can run from the command line by typing:
+
+curl www.google.com

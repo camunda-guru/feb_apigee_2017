@@ -1,0 +1,7 @@
+The OpenAPI Specification
+The OpenAPI Specification is an API description format or API definition language. Basically, an OpenAPI Specification file allow you to describe an API including (among other things):
+
+General information about the API
+Available paths (/resources)
+Available operations on each path (get /resources)
+Input/Output for each operation

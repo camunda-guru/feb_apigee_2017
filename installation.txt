@@ -1,0 +1,290 @@
+http://mocktarget.apigee.net/ip
+api proxy
+curl http://iiht-test.apigee.net/libordata
+soap proxy
+http://iiht-test.apigee.net/globalweather-1//citiesbycountry?CountryName=India
+
+openapi documents
+ https://raw.githubusercontent.com/apigee/api-platform-samples/master/default-proxies/helloworld/openapi/mocktarget.yaml
+
+curl http://iiht-prod.apigee.net/swagger-api-1/xml
+
+after adding xmltojson
+
+curl http://iiht-prod.apigee.net/swagger-api-1/xml
+
+
+API Key
+
+
+http://iiht-prod.apigee.net/v1/novapikey_geocode?apikey=SKAnDCJuisMs7lggpWlKbPxw1VyWz2Z3&address=600049
+
+http://iiht-test.apigee.net/feb_apikey_demo?apikey=
+	wheMvMuvQxGzNYYivcish8pD4t9h1sfm
+
+
+
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+http://iiht-test.apigee.net/feb_airport_proxy/GetAirportInformationByCountry?country=india
+
+curl -is http://localhost:8080/hello/parameswari
+
+
+
+
+
+
+
+
+http://docs.apigee.com/api-services/content/what-apigee-edge
+		muq5ZmdrAk5AWqHhcPggKxckjreTPFUl
+Download oauth 2.0 proxy
+
+http://docs.apigee.com/tutorials/secure-calls-your-api-through-oauth-20-client-credentials
+
+Click APIs in the top menu.
+Click the add (+) API Proxy button.
+In the Build a Proxy wizard, select Proxy bundle and click Next.
+Choose the oauth.zip file you downloaded, and click Next.
+Click Build.
+
+
+
+
+
+
+eIIYeTMHPNkoFOTlwXiBG8igUuHB8GS6 
+
+http://{org-name}-test.apigee.net/v1/helloapikey?apikey={paste_api_key_here}
+http://iiht-prod.apigee.net/v1/albumproxy?apikey=eIIYeTMHPNkoFOTlwXiBG8igUuHB8GS6
+curl -v -H "apikey: {api_key_goes_here}" http://{org-name}-test.apigee.net/v1/helloapikey
+
+curl -v -H "apikey:nT9ETm3ueBSUlYQ42Bc9BDnDeNpt68Yl" http://iiht-test.apigee.net/albumstest/v1
+curl https://api.enterprise.apigee.com/v1/o/{org_name}/apps -u email:password
+
+get the appid and pass ---aabe0484-81a6-49b0-8595-697919cd01a7
+
+curl https://api.enterprise.apigee.com/v1/o/{org_name}/apps/aabe0484-81a6-49b0-8595-697919cd01a7 -u email:password 
+Step 1
+
+load outh.zip generates access token
+
+under deployment select test
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=sISiA6bLiQjJDM6dpdFSWZ8E9GlIS9Aq&client_secret=zRlAGLTMQMNwg3WU" 
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=XW3ib6LLDy8b3QGMAfmjAMjGRLKSAxz3&client_secret=wPKGTouxDct4sY3l"
+
+URL: https://nraka-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials method Type : POST Body :client_id=mhWAUiA9eWd9t0CdRuitjAnVdQdqfCA7&client_secret=poNiwjBiGgVzkVux  Header : Content-Type: application/x-www-form-urlencoded
+
+URL : https://nraka-test.apigee.net/oauthuserproxy Method Type : GET Header Element :  Authorization Value : Bearer OXR6T1zNq5whchNZxAccGF3MpjiB
+
+
+
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=zTAtRkfvAFwb9g9SHemFnnmOwKlkrxwl&client_secret=	Ip7rfBsf7fun26ZL" 
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=		WT3jaXS9LdvuNDrJZMozQYABbGhYlxyD&client_secret=6SATTsHU6y6CMRhS"
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauthquandl/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=		zTAtRkfvAFwb9g9SHemFnnmOwKlkrxwl&client_secret=Ip7rfBsf7fun26ZL"
+access token returned
+
+bvrOmVswNBNOAEAANRkuzDLW2KS8
+oT1bNXJAT5rhWVAUECc7MkeLWsil
+curl https://iiht-test.apigee.net/v1/oauthusers -H "Authorization: Bearer bvrOmVswNBNOAEAANRkuzDLW2KS8"
+Lib0QP0IGsAOHPzgFuUwRY0a8O04
+
+curl https://iiht-test.apigee.net/demoproxy -H "Authorization: Bearer tHbZhULtvn4LLa1BApVBTNBvnwtM"
+
+ILYKuXmlqgr2T6Lw1fToM69j8w1o
+get access token
+5miIFvg6FKrqq7D6YQxWnatkXZA4
+3FiiGgtwPKXFsoGDDNbYeseFV7G0
+curl http://iiht-test.apigee.net/v1/oauthquandl  -H "Authorization: Bearer 3bfnGGCc9pN2yToXi6VFWjhN1C5I"
+
+curl https://iiht-test.apigee.net/albums -H "Authorization: Bearer 3FiiGgtwPKXFsoGDDNbYeseFV7G0"
+curl https://iiht-test.apigee.net/v1/jsonposts -H "Authorization: Bearer 5miIFvg6FKrqq7D6YQxWnatkXZA4"
+
+http://iiht-test.apigee.net/comments?apikey=1ekoYsLdvDVvGXQGeIH0y44NxLsphqK2
+https://iiht-prod.apigee.net/v1/ibmposts?
+apikey=7bN2xTjl47NH9GFfuBAIROectPXfND8e
+
+https://iiht-test.apigee.net/v1/myposts?apikey=ydqGo9bDCXfO8waGvtikL7OolADij4ER
+
+
+
+https://iiht-test.apigee.net/v2/apicomments?apikey=	PJVGArHYjpOAankeZN3lyi6hwAGt0kK8 
+
+curl https://api.enterprise.apigee.com/v1/o/iiht/developers/ibmuser2016blr@gmail.com/apps/IBMAPP -u ibmuser2016blr@gmail.com:Ibm1234! 
+
+http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL
+rest path
+
+http://iiht-test.apigee.net/v1/param-weather/cityweatherbyzip?ZIP=75462
+
+http://<your_org_name>-<environment>.apigee.net/path/to/resource
+http://iiht-prod.apigee.net
+http://iiht-test.apigee.net
+
+curl -X GET https://api.usergrid.com/{parameswari}/sandbox/books
+
+https://api.usergrid.com/parameswari/sandbox/books
+
+https://api.usergrid.com/parameswari/InsuranceApp/policies
+https://api.usergrid.com/parameswari/travelapp/books
+https://api.usergrid.com/parameswari/IBMAPP/cabinfos
+------------------------
+add guest with permission /**
+http://api.usergrid.com/{orgname}/{appname}/{collectionname}
+curl -X GET https://api.usergrid.com/parameswari/entertainment/movies/1fdc4c6a-6ea1-11e6-bb3a-a7f8f1263742
+curl -X GET https://api.usergrid.com/parameswari/entertainment/movies/Friends
+curl -X GET https://api.usergrid.com/parameswari/entertainment
+/users/2855276a-6ea4-11e6-bd49-178c108170ef
+curl -X GET https://api.usergrid.com/parameswari/entertainment/movies?ql=uuid='1fdc4c6a-6ea1-11e6-bb3a-a7f8f1263742'
+
+curl -X GET https://api.usergrid.com/parameswari/entertainment/roles
+
+curl -X GET https://api.usergrid.com/parameswari/entertainment/roles/guest/movies/Friends
+
+//check conditional queries
+
+
+
+
+Service Type:	Oracle Database Cloud Service
+Service Name:	demodb
+Schema name:ENZWJLMCRVJOC 
+Account / Identity Domain:	eswaribala
+Order ID:	C6040969
+Order Date:	30-Aug-2016
+Trial Duration:	30 days
+
+demodb (Oracle Database Cloud Service - Trial)
+Data Center: US Commercial 2
+Subscription ID: 540875749
+Identity Domain: eswaribala
+Software Version: 16.1.0.0.0
+Customer Account: Freelancer (IN)
+
+	
+Order Details
+Order ID: C6040969
+Order Date: Tuesday, August 30, 2016 12:23 PM CDT
+
+Username:  eswaribala@rediffmail.com
+Temporary Password: Cb60S4F1 --- modified -- Vigneshbala95!
+Identity Domain: eswaribala
+https://demodb-eswaribala.db.us2.oraclecloudapps.com/apex/
+
+-----------------------
+npm install r3mus/usergrid-nodejs
+
+
+
+
+curl -u eswaribala@rediffmail.com:Vigneshbala95! https://api.enterprise.apigee.com/v1/o/iiht/environments/prod/stats/apis?select=sum(message_count)&timeRange=8/01/2016%2000:00~8/28/2016%2000:00&timeUnit=day
+
+
+
+orchestration - APIGEE
+
+curl https://{org_name}-test.apigee.net/my_oauth_proxy/accesstoken?code=Xyz123&grant_type=authorization_code -X POST -d 'client_id=bBGAQrXgivA9lKu7NMPyoYpKNhGar6K&client_secret=hAr4GngA9vAyvI4'
+
+
+https://www.quandl.com/api/v3/datasets/FRED/DFF.json?api_key=nHYufVSHw4383Wy4_Ekg
+
+
+	g2d9JrfnVCBaGd0b40gt4POMQiKvNAI0
+hnstnFsn1ICba0MR
+---------------------------------------------------
+Oauthentication
+1.give credential to /oauth/crdential
+2.pass access token to proxy
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=	6r9FnEcSBkQXmNobFwvNb8sMDSXrNppG&client_secret=wr7k3yVG5Hd7i5rP" 
+
+curl https://iiht-test.apigee.net/oauthmockip  -H "Authorization: Bearer fF10SNG1nh0cxgW1erO5qTCiSkJI"
+---------------------------------------------------------------
+curl https://iiht-test.apigee.net/oauthquandl?api_key=nHYufVSHw4383Wy4_Ekg  -H "Authorization: Bearer 4aRdoLmIun4cqrhrBl4Cd2iqTx5e"
+--------------------------------------------------------------------
+Without CURL
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials method Type:POST Body :client_id=K4mLWpTZ3y6Mjh3a6dmqMuahblSr19np&client_secret=wAeztVNDLBGSOxG5  Header:Content-Type: application/x-www-form-urlencoded
+--------------------------------------------------------------------
+URL : https://nraka-test.apigee.net/oauthuserproxy Method Type : GET Header Element :  Authorization Value : Bearer OXR6T1zNq5whchNZxAccGF3MpjiB
+
+--------------------------------------------------------------------
+1.sending request to oauth server. It returns bearer token or access token
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=UzUoWpUrx1JGAAvznWp5rqqrt5n30lAG &client_secret=GS3YP94oFs9kGNQ4"
+
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=5FAHnXyrrxuFa1LCQgjvCt1s24FbfBjr
+&client_secret=sdOR2T3yAsgm6MVj"
+
+curl -X POST -H "Content-Type: application/x-www-form-urlencoded" 
+https://iiht-test.apigee.net/oauth/client_credential/accesstoken?grant_type=client_credentials 
+-d "client_id=ricfShCmX2YDBEaAi1W2zVDDHd5TM18Z
+&client_secret=m6pjYn4VSTUVfZFb"
+
+
+0JNN0HBQO0ZamrQFUoHkkGjrGdjnprNJ
+BPk6J52ddgCexx0G  
+
+------------------------------------------------------------
+2. call the api proxy using access token or bearer token
+"CaAAoWtlg1b5uP2cA6ah8clKWJrW",
+curl https://iiht-test.apigee.net/v1/oauthmockjson  -H "Authorization: Bearer CaAAoWtlg1b5uP2cA6ah8clKWJrW"
+
+curl http://iiht-test.apigee.net/oauth_proxy_users -H 
+"Authorization: Bearer NxNqQrqrCNpdwz5aoToe6ibLtGCC"
+
+curl http://iiht-test.apigee.net/feb_directions_json -H 
+"Authorization: Bearer SAX7lPbLFttEUEZMiDYuVrm5KNY2"
+
+l2qy3TjcmND0VCP0qwHHw5CPnbun
+--------------------------------------------------------------
+http://mocktarget.apigee.net/user
+http://mocktarget.apigee.net/json
+http://mocktarget.apigee.net/ip
+https://maps.googleapis.com/maps/api/geocode/xml
+
+----------------------------------------------------------
+1. sending request to geocode api
+2. It returns longitude and latitude
+3. send it as input parameter to elevation api
+4. should return elevation data
+
+idea multiple target
+
+request ---> apigee proxy call ---> geocode-->data--> elevation api--->response
+
+mashup service
+
+
+
+
+
+
+
+
+
+
+
+

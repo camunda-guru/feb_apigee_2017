@@ -1,0 +1,25 @@
+curl https://api.usergrid.com/parameswari/irsapp/users --- lists users
+curl -X GET https://api.usergrid.com/parameswari/irsapp/policies
+curl https://apibaas-trial.apigee.net/iiht/entertainment/employees
+
+curl https://apibaas-trial.apigee.net/iiht/entertainment/employees
+curl https://api.usergrid.com/iiht/entertainment/employees
+
+queries
+------------
+curl https://api.usergrid.com/parameswari/irsapp/users?ql=status='active'
+
+curl https://api.usergrid.com/parameswari/irsapp/policies/929633ba-a551-11e6-aa58-318fa65245f8
+curl https://api.usergrid.com/parameswari/sandbox/cabs/2a1556da-a57f-11e6-922a-4f83a3d58da6
+curl -X GET https://api.usergrid.com/parameswari/irsapp/roles/guest/policies/1234
+
+
+curl -X PUT https://api.usergrid.com/parameswari/irsapp/policies/?ql= -d '{"premeium" : "quarterly" }'
+
+curl -X DELETE https://api.usergrid.com/parameswari/irsapp/policies/?ql="Name=Beam Dhara"
+
+
+curl -X POST "https://api.usergrid.com/parameswari/irsapp/items" -d '{"varieties":[{"name":"1%","price" : "3.25", "sku" : "0393847575533445"},{"name" : "whole", "price" : "3.85", "sku" : "0393394956788445"}, {"name" : "skim", "price" : "4.00", "sku" : "0390299933488445"}]}'
+
+
+mNLvD9MHTzvEGRf9ceSGBoPHsOoAUR9v
