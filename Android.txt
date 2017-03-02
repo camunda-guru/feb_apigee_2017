@@ -1,0 +1,30 @@
+npm install -g phonegap
+
+
+phonegap create myapp
+npm install -g cordova
+phonegap create ProjectPath PackageName
+add android sdk tools folder (c:\user\bala\android...) to path in system 
+go to projectfolder
+
+cordova platform add android
+phonegap build android
+
+After project changes use
+phonegap prepare android
+phonegap plugin add org.apache.cordova.network-information
+---------------------------------------
+
+Sencha and phonegap
+1. go to node js
+2. go to sencha folder
+3. java -jar sencha.jar -sdk ./touch/touch-2.4.1 generate app testphonegap testphonegap(folder name)
+4.go to testphonegap folder
+5.java -jar sencha.jar phonegap init com.sencha.testphonegap
+6. install Ruby
+7. gem source -a http://rubygems.org/
+8. gem install sass
+9. gem install compass
+
+10. java -jar sencha.jar app build -run native
+
