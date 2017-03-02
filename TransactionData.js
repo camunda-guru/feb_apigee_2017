@@ -38,7 +38,7 @@ app.get('/getDevices', function(req, res) {
 
 
 function getTransactions(req, res) {
-client.GET('transactions', function(error, transactions) {
+client.GET('transactions', function(error, usergridResponse,transactions) {
         
     //console.log(transactions);
 
@@ -50,12 +50,33 @@ client.GET('transactions', function(error, transactions) {
 			return;
 		}
             var tranArray=[];    
-            for(x in transactions)
+            for(x in usergridResponse.entities)
               {
-                 tranArray.push(transactions[x]);
+                 tranArray.push(usergridResponse.entities[x]);
               }
-      console.log(tranArray);            
-	res.status(200).jsonp(transactions);
+
+      //console.log(tranArray);  
+
+      console.log(tranArray[0].uuid);
+console.log(tranArray[0].type);
+console.log(tranArray[0].amount);
+res.status(200).write("<h1>Transaction Data from API BAAS</h1>")
+res.status(200).write("<table>");
+res.status(200).write("<tr>");
+res.status(200).write("<td> Transaction Id</td>");
+res.status(200).write("<td> Transaction date</td>");
+res.status(200).write("<td> Transaction Amount</td>");
+res.status(200).write("</tr>");
+for(obj in tranArray)
+{
+res.status(200).write("<tr>");
+	res.status(200).write("<td>" + tranArray[obj].transactionId+"</td>");
+	res.status(200).write("<td>"+ tranArray[obj].date+"</td>");
+	res.status(200).write("<td>" + tranArray[obj].amount+"</td>");
+res.status(200).write("</tr>");
+}
+res.status(200).write("</table>");
+
 })
 
 
@@ -77,7 +98,8 @@ client.GET('devices', function(error, devices) {
               {
                  tranArray.push(devices[x]);
               }
-      console.log(tranArray);            
+      
+     
 	res.status(200).jsonp(devices);
 })
 
